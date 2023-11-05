@@ -1,6 +1,8 @@
 package models;
 
 public abstract class Vehicle {
+
+    public static final count = 20;
     private String model;
     private int year;
     private Wheel wheel;
@@ -28,4 +30,6 @@ public abstract class Vehicle {
         this.year = year;
     }
     public abstract void move();
+
+    public abstract void vehicle();
 }

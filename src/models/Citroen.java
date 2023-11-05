@@ -1,8 +1,10 @@
 package models;
 
+import models.interfaces.IVehicle;
+
 import java.util.Objects;
 
-public class Citroen extends MotorVehicle{
+public class Citroen extends MotorVehicle implements IVehicle {
     public Citroen(String model, int year) {
         super(model, year);
     }
@@ -12,8 +14,8 @@ public class Citroen extends MotorVehicle{
         System.out.println("from Citroen class");
     }
 
-    //@Override
-    //public int hashCode() {
-    //    return Objects.hash(16, "Pirelli");
-    //}
+    @java.lang.Override
+    public void vehicle() {
+        System.out.println("Citroen is a Vehicle");
+    }
 }
