@@ -10,5 +10,9 @@ public class Truck {
 
         MercedesBenz.enjoy();
         Honda.travel();
+        doSmth();
+    }
+    public static void doSmth(){
+
     }
 }
