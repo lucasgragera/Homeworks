@@ -23,14 +23,8 @@ public class Main {
         doSmth(mercedesBenz);
         doSmth(porsche);
         doSmth(toyota);
-
-        //tyreSize(audi);
-        //tyreSize(Bmw);
-        //tyreSize(Citroen);
     }
     private static void doSmth(Vehicle vehicle){
         vehicle.move();
     }
-
-    //public static void tyreSize(Wheel hashcode)
 }

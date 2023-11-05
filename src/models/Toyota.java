@@ -3,7 +3,7 @@ package models;
 public class Toyota extends MotorVehicle{
 
 
-    final public Toyota(String model, int year) {
+    public Toyota(String model, int year) {
         super(model, year);
     }
 

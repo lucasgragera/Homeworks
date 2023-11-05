@@ -2,7 +2,7 @@ package models;
 
 import java.util.Objects;
 
-public class Wheel {
+final public class Wheel {
     private int size;
     private String brand;
 
