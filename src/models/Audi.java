@@ -15,6 +15,11 @@ public class Audi extends MotorVehicle implements IDrive {
         System.out.println("from Audi class");
     }
 
+    @Override
+    public void vehicle() {
+
+    }
+
     @java.lang.Override
     public void drive() {
         System.out.println("You can drive an Audi");

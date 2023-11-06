@@ -9,9 +9,18 @@ public class Honda extends MotorVehicle implements ITravel {
         super(model, year);
     }
 
+    public Honda() {
+        super();
+    }
+
     @Override
     public void move(){
         System.out.println("from Honda class");
+    }
+
+    @Override
+    public void vehicle() {
+
     }
 
     @java.lang.Override

@@ -7,6 +7,10 @@ public class MercedesBenz extends MotorVehicle implements IEnjoy {
         super(model, year);
     }
 
+    public MercedesBenz() {
+
+    }
+
     @Override
     public void move(){
         System.out.println("from MercedesBenz class");

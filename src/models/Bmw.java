@@ -16,6 +16,11 @@ public class Bmw extends MotorVehicle implements IRace {
         System.out.println("from Bmw class");
     }
 
+    @Override
+    public void vehicle() {
+
+    }
+
     @java.lang.Override
     public void race() {
         System.out.println("You can race in a Bmw");

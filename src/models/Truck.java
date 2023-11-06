@@ -5,7 +5,7 @@ import models.interfaces.ITravel;
 
 public class Truck {
 
-    public static void main(Strings[] args){
+    public static <Strings> void main(Strings[] args){
         IEnjoy MercedesBenz = new MercedesBenz();
         ITravel Honda = new Honda();
 

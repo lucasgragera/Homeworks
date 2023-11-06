@@ -1,11 +1,15 @@
 package models;
 
-public abstract class Vehicle {
+public abstract class Vehicle{
 
     public static final count = 20;
     private String model;
     private int year;
     private Wheel wheel;
+
+    public Vehicle() {
+
+    }
 
     protected String getModel() {
         return model;

@@ -6,8 +6,17 @@ public class MotorVehicle extends Vehicle{
     }
     private Engine engine;
 
+    public MotorVehicle() {
+        super();
+    }
+
     @Override
     public void move() {
         System.out.println("from MotorVehicle class");
+    }
+
+    @Override
+    public void vehicle() {
+
     }
 }
