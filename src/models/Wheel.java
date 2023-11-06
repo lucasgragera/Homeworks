@@ -3,6 +3,7 @@ package models;
 import java.util.Objects;
 
 final public class Wheel {
+    public static final int COUNT_OF_CARS = 10;
     private int size;
     private String brand;
 
